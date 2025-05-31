@@ -1,1 +1,203 @@
 # Icecream-website
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Bliss - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5e6;
+            color: #4b3832;
+        }
+
+        header {
+            background-color: #6f4e37;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+            
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            margin-top: 50px;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #6f4e37;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .about {
+            background-color: #faf0e6;
+            padding: 2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;   
+            opacity:0.7;     
+        }
+        .gallery img:hover {
+
+            opacity: 1;
+        }
+        footer {
+            background-color: #6f4e37;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .contact-form input,.contact-form textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 0.5rem;
+            border: 2px solid #6f4e37;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 0.5rem 2rem;
+            background-color: #6f4e37;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: blue;
+        }
+        .shop{
+            height: 600px;
+            width: 1200px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 110px;
+        }
+        .aa{
+            height:26ss0px;
+        }
+        .logo{
+            height: 120px;
+            margin-left: 1500px;
+            border-radius: 210px;
+
+
+            
+           }
+        
+
+
+</style>
+</head>
+
+<body>
+    <header>
+        
+        <h1>COFFEE</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <div class="aaaa"><img src="logo-search-grid-2x.png" alt="error" class="logo"></div>
+    </header>
+    <div class="shop">
+        <img src="ChatGPT Image Apr 11, 2025, 07_17_12 PM.png" alt="" class="shop">
+    </div>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p style="font-size: 20px;">
+            I am Anubhav kanthariya and  I run a coffee shop built on my love for great coffee and warm
+            connections. At my shop, we serve fresh, flavorful coffee made from the best beans, along with delicious
+            snacks and treats. It’s a cozy space where you can relax, work, or spend time with friends. We focus on
+            quality, great service, and making sure every visit feels special. Come in and enjoy a perfect cup of coffee
+            with us!
+        </p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="111.jpg" alt="Espresso shot">
+            <img src="222.jpg" alt="Latte art" class="aa">
+            <img src="333.jpg" alt="Coffee beans" class="aa">
+            <img src="444.webp" alt="Cozy coffee shop interior">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Bliss. All rights reserved.</p>
+    </footer>
+    <script>
+        function fun() {
+            name = prompt("What's your name ")
+            alert("Thank you for your response : "+name )
+        }
+    </script>
+</body>
+
+</html>  
