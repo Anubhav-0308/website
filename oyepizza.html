@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Bliss - Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(abstract-purple-and-pink-bokeh-background-soft-blur-light-effect-wallpaper-dreamy-backdrop-with-copy-space-for-text-party-pastel-lovely-bubble-bokeh-background-vector.jpg);
+        color: #4b3832;
+      }
+
+      header {
+        background-color: rgb(243, 8, 141);
+        color: #fff;
+        padding: 1rem 2rem;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 20;
+        font-size: 2.5rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: 2px solid #fff;
+        border-radius: 9px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      nav a:hover {
+        background-color: #904efa;
+        color: #6f4e37;
+      }
+
+      section {
+        padding: 2rem;
+        text-align: center;
+      }
+
+      .about {
+        padding: 2rem;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1rem;
+      }
+
+      .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        opacity: 0.7;
+      }
+      .gallery img:hover {
+        opacity: 1;
+      }
+      footer {
+        background-color: rgb(243, 8, 141);
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 20px;
+        padding-top: 10px;
+      }
+
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .contact-form input,
+      .contact-form textarea,
+      .contact-form select {
+        width: 100%;
+        max-width: 500px;
+        padding: 0.5rem;
+        border: 2px solid #6f4e37;
+        border-radius: 5px;
+      }
+
+      .contact-form button {
+        padding: 0.5rem 2rem;
+        background-color: #6f4e37;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .contact-form button:hover {
+        background-color: blue;
+      }
+      .shop {
+        height: 700px;
+        width: 1500px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+      }
+      .aa {
+        height: 26ss0px;
+      }
+      .flav {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        padding-top: 4px;
+      }
+      .zzz {
+        padding-top: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>PIZZA HUT</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#flavorful">Flavours</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!-- <div class="aaaa"><img src="logo-search-grid-2x.png" alt="error" class="logo"></div> -->
+    </header>
+    <div class="shop">
+      <img
+        src="WhatsApp Image 2025-07-06 at 13.06.15_7b5eb027.jpg"
+        alt=""
+        class="shop"
+      />
+    </div>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p style="font-size: 20px">
+        I am Anubhav Kanthariya, and I run a pizza shop built on my passion for
+        delicious food and happy moments. At my shop, we serve fresh, hot, and
+        flavorful pizzas made with the finest ingredients and lots of love. It’s
+        a cozy place where you can enjoy great taste with your friends and
+        family. We focus on quality, hygiene, and customer satisfaction. Whether
+        you're craving a cheesy Margherita or a spicy special, we've got a slice
+        for every mood. Come in and enjoy the perfect pizza experience with us!
+      </p>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="OIP.jpeg" alt="Espresso shot" />
+        <img src="OIP (1).jpeg" alt="Latte art" class="aa" />
+        <img src="OIP (2).jpeg" alt="Coffee beans" class="aa" />
+        <img src="OIP (3).jpeg" alt="Cozy coffee shop interior" />
+      </div>
+    </section>
+    <section id="flavorful">
+      <h2>
+        Flavours
+        <div class="flav">
+          <div class="zzz">
+            <h1>veg</h1>
+            <h6>Margherita</h6>
+            <h6>Paneer Tikka</h6>
+            <h6>Cheese N Corn</h6>
+            <h6>Deluxe Veggie</h6>
+            <h6>Veggie Supreme</h6>
+          </div>
+
+          <div class="zzz">
+            <h1>non veg</h1>
+            <h6>Chicken Tikka</h6>
+            <h6>BBQ Chicken</h6>
+            <h6>Chicken Dominator</h6>
+            <h6>Tandoori Chicken</h6>
+            <h6>Spicy Chicken</h6>
+          </div>
+        </div>
+      </h2>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <select id="flavour" name="flavour">
+          <optgroup label="Veg">
+            <option>Margherita</option>
+            <option>paneer tikka</option>
+            <option>Cheese N Corn</option>
+            <option>Deluxe Veggie</option>
+            <option>Veggie Supreme</option>
+          </optgroup>
+          <optgroup label="Non-Veg">
+            <option>Chicken Tikka</option>
+            <option>BBQ Chicken</option>
+            <option>Chicken Dominator</option>
+            <option>Tandoori Chicken</option>
+            <option>Spicy Chicken</option>
+          </optgroup>
+        </select>
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input
+          type="number"
+          name="number"
+          min="1"
+          maxlength="10"
+          placeholder="phone number"
+          required
+        />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your full Address"
+          required
+        ></textarea>
+
+        <button type="submit" onclick="fun()">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        📍 123 Pizza Street, Food City, Ahemdabad <br />
+        📞 +91-8519075190 | ✉️ anubhavkanthariya@gmail.com
+      </p>
+      <p>&copy; 2025 Oye pizza. All rights reserved.</p>
+    </footer>
+    <script>
+      function fun() {
+        alert("Thank you for your response : " + name);
+      }
+    </script>
+  </body>
+</html>
